@@ -127,12 +127,12 @@ const ExpenseList = () => {
     </table>
     <ExpenseTotal total={total}/>
     <div>
-        <ResponsiveContainer width="500px" height="500px">
+        
             
-      <BarChart width={150} height={40} data={data1}>
-        <Bar dataKey="uv" fill="#8884d8" />
+      <BarChart width={500} height={400} data={expences}>
+        <Bar dataKey="amount" fill="#8884d8" />
       </BarChart>
-    </ResponsiveContainer>
+    
     </div>
 </>
   )

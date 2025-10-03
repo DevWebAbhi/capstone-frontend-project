@@ -21,7 +21,6 @@ function App() {
       <Route path='/add' element={<AddExpensePage/>}/>
     </Routes>
      </BrowserRouter>
-     <Chart/>
     </>
   )
 }
